@@ -107,6 +107,6 @@ STATIC_URL = "static/"
 if DEBUG:
     STATICFILES_DIRS = [BASE_DIR / "static"]
 else:
-    STATIC_ROOT = BASE_DIR / "static"
+    STATIC_ROOT = "/home/paymentm/public_html/static"
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
